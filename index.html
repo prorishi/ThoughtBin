@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="A place for keeping your thoughts which you might forget." />
+    <meta name="theme-color" content="#333333" />
+    <meta
+      name="viewport"
+      content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height"
+    />
+    <script src="./components/scripts/reDirect.js"></script>
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" href="./components/styleSheets/style.css" />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.com/e2f8ef06-c96b-4fc5-815c-d78bc92522d8%2FTRASH_BIN-512.png?v=1612452722105"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="https://cdn.glitch.com/e2f8ef06-c96b-4fc5-815c-d78bc92522d8%2FTRASH_BIN-512.png?v=1612452722105"
+    />
+    <title>ThoughtBin</title>
+  </head>
+  <body>
+    <table>
+      <tr id="header">
+        <td id="title">
+          ThoughtBin
+        </td>
+        <td id="menu">
+          <button id="clear">Clear</button>
+        </td>
+      </tr>
+      <tr id="area1">
+        <td colspan="2" id="area">
+          <label for="input"></label>
+          <textarea id="input-area" name="input"></textarea>
+        </td>
+      </tr>
+    </table>
+
+    <script src="./components/scripts/serviceWorkerHandler.js"></script>
+    <script src="./components/scripts/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "ThoughtBin",
+  "short_name": "ThoughtBin",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#333",
+  "theme_color": "#333",
+  "icons": [
+    {
+      "src": "https://cdn.glitch.com/e2f8ef06-c96b-4fc5-815c-d78bc92522d8%2FTRASH_BIN-512.png?v=1612452722105",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}
