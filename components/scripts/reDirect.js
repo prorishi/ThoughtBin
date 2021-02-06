@@ -1,3 +1,3 @@
 if (location.protocol == "http:") {
-  location.protocol = "https:";
+  // location.protocol = "https:";
 }
