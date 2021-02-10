@@ -15,7 +15,7 @@ document.body.onload = () => {
   or
   this can be used as a place to keep your notes/ shopping list/ to-doS/ homework/ etc.
   
-  write here and it will be saved until you change it.`;
+  write here and it will be.`;
 };
 
 clearButton.onclick = () => {
