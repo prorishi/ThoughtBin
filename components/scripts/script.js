@@ -9,7 +9,7 @@ setInterval(`inputArea.value = localStorage.getItem("thoughts")`, 100);
 
 document.body.onload = () => {
     inputArea.value =
-       localStorage.getItem("thoughts").trim() ||
+       localStorage.getItem("thoughts") ||
         `This is a place for all your thoughts 
   which you think you might need to remember in future.
   or
