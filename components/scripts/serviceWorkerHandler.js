@@ -4,6 +4,6 @@ if (serviceWorker) {
     serviceWorker.register("./serviceWorker.js");
 }
 
-window.addEventListener("beforeinstallevent", () => {
-    console.log('before install');
-});
+// window.addEventListener("beforeinstallevent", () => {
+//     console.log('before install');
+// });
